@@ -1,0 +1,7 @@
+MEMORY
+{
+  /* Flash memory */
+  FLASH : ORIGIN = 0x08000000, LENGTH = 64K
+  /* SRAM */
+  RAM : ORIGIN = 0x20000000, LENGTH = 12K
+}
